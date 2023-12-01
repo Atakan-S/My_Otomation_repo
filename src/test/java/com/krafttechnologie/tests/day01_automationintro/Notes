@@ -1,0 +1,69 @@
+Başarının kuralları:
+1- Hiç bir dersi kaçırılmayacak.
+2- İlk kural ihlal edilmeyecek, ders kaçırdıysak mutlaka recording izlenecek.
+3- Devamlı TEKRAR.
+4- Öğrenilen her konu için:
+	4.1 Coding tekrarı %49
+	4.2 Öğrenilen konuyu anlatabilme %51
+
+Bilgi Kaynakları
+1- ChatGPT
+2- Google (stackoveflow, youtube, udemy, IT bloglar)
+3- Notlar, recordingler,
+4- IT Community
+5- Eren hoca
+
+Ne gördük/göreceğiz?
+SOFTSKILL --> Devam ediyor
+Java --> Bitti
+
+ZORUNLU:
+SELENIUM
+TESTNG
+CUCUMBER
+JUNIT
+SQL
+JDBC
+API
+
+EXTRA:
+MOBILE TESTING --> 3-4 GÜN
+KARATE FRAMEWORK --> 2 GÜN
+CYPRESS (JAVASCRIPT FRONTEND AUTOMATION TOOL) --> 2 GÜN
+JMETER (PERFORMANCE TESTING TOOL) --> 1 GÜN
+
+- Bugün yeni bir gün!
+- Java'da bir miktar eksik olmamız Selenium'da master olmamıza engel değil!
+- Selenium, Java'dan kesinlikle daha kolay,
+- %60 Java bilgisi, Selenium ile kod ve test yazmak için yeterli
+- Fakat mülakat perspektifinden zaten JAVA'yı çok iyi bilmek durumundayız!
+- ISTQB (International Software Testing Qualification Standarts) --> Good to have
+- OCA (Java Certification/Oracle Certification Assosication) is not mandatory
+
+
+**
+Diyelim ki 200 test var.
+Smoke Test (en önemli 20 tanesini her gün kontrol ediyoruz)
+Regression Test (hepsinin çalıştırılmasına regression)
+
+
+Manual&&Automation
+1- Walking && Driving
+2- Otomasyon daha doğru/kesin sonuçlar verir
+3- Bir defa yaz, sonsuza kadar kullan
+4- MANUAL HALA ÇOK ÖNEMLİ VE KIYMETLİ!!!
+
+SELENIUM
+1- Selenium automates browser!
+2- Open Source and Free
+3- Platform Independence (Windows, Mac, Linux,...)
+4- Multiple Language (Java, C++, Ruby, Python...)
+5- Multiple Browsers (Chrome, Safari, Firefox, Edge)
+
+3 tip aplikasyonumuz var:
+1- Web-based aplikasyonlar
+2- Mobile aplikasyonlar
+3- Desktop aplikasyonlar
+
+Maven --> Build Management Tool (Java)
+1- Dependency Management

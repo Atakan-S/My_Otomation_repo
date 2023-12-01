@@ -1,0 +1,12 @@
+2 ways to get text from web element
+1. way => getText() --> it will work %99 , it returns String
+2. way => getAttribute("name") --> it returns String and it will get attribute name's value
+navigate().to() == get()
+navigate().back() -->  geri dön tuşu
+navigate().forward --> ileri git tuşu
+navigate().refresh()
+quit() --> browser'ı kapat quit() methodu bütün sekmeleri kapatır
+close() --> browser'ı kapat close() methodu geçerli sekmeyi kapatır
+findElement() --> web element locate methodu
+click() --> web element clicklemek için
+CTRL+ALT+T --> seçtiğin kodu herhangi bir şeyin içine alabilmene yarar *********************************************************
