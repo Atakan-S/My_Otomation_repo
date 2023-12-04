@@ -1,4 +1,4 @@
-package com.krafttechnologie.tests.day04_TeknikMentorluk;
+package com.krafttechnologie.tests.day04_TecnicalMentoring;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Dimension;
