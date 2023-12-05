@@ -1,4 +1,4 @@
-package com.krafttechnologie.tests.day04_TecnicalMentoring;
+package com.krafttechnologie.tests.TecnicalMentoring;
 
 import com.krafttechnologie.utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
