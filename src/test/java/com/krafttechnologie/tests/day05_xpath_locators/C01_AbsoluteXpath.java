@@ -1,4 +1,4 @@
-package com.krafttechnologie.tests.day05_xpath;
+package com.krafttechnologie.tests.day05_xpath_locators;
 
 import com.krafttechnologie.utilities.IfVerifry;
 import com.krafttechnologie.utilities.WebDriverFactory;

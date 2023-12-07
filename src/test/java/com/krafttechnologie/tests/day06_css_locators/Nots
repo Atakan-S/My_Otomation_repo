@@ -1,0 +1,12 @@
+**************************************************************CSS*******************************************************************
+//CSS de ID üzerinden locate ederken Başına '#' getirerek locate edebiliriz. #text
+//CSS de Class üzerinden locate ederken Başına ve boşluk varsa arasına '.' getirerek locate edebiliriz. .text
+//CSS de value üzerinden locate ederken Başına ve sonuna '[]' getirerek ve attributeu full olarak ["Attribute="value"] locate edebiliriz.***** => xpath ("//tagname[@att='value']")
+---GENEL YAPI OLARAK ["Attribute="value"] BUNU KULLANIRIZ ANCAK '=' DEN ÖNCE ÇEŞİTLİ İŞARETLER İLE
+// starst with kullanmak için TAGNAME[ATT'^'="VALUE"] şeklinde yaparız attiribute ten sonra '^' ekleyerek xpath=> ("//tagname[starts-with(@att,'value')]")
+// ends with kullanmak için TAGNAME[ATT'$'="VALUE"] şeklinde yaparız attiribute ten sonra '$' ekleyerek
+// Contains kullanmak için TAGNAME[ATT'*'="VALUE"] şeklinde yaparız attiribute ten sonra '*' ekleyerek xpath => //tagname[contains(@att,'value')]
+//MULTİPLE attributelar locatimizi kuvvetlendirmek sağlamlaştırmak için kullanılır css te and or kullanmayız
+//MULTİPLE yaparken TAGNAME(optional)[ATT="VALUE"][ATT="VALUE"] şeklinde alırız xpath=> //TAGNAME[@ATT=VALUE (OR,AND) ATT=VALUE] YADA [@ATT="VALUE"][@ATT="VALUE"]
+//CSS te TAGNAME>TAGNAME>TAGNAME olarak parenttan childa ilerleyebiliriz Xpath=> //TAGNAME/TAGNAME/TAGNAME
+//Parenttan grandchilda direk atlamak istersek css te boşluk kullanıyoruz TAGNAME TAGNAME Xpath=> //tagname//tagname

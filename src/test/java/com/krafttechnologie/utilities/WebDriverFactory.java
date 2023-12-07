@@ -8,30 +8,28 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class WebDriverFactory {
-    public static WebDriver getDriver(String driverType) {
-        if (driverType.equalsIgnoreCase("chrome")) {
-            WebDriverManager.chromedriver().setup();
-            WebDriver driver = new ChromeDriver();
-
-            return driver;
-
-        } else if (driverType.equalsIgnoreCase("safari")) {
-            WebDriverManager.safaridriver().setup();
-            WebDriver driver = new SafariDriver();
-            return driver;
-
-        } else if (driverType.equalsIgnoreCase("firefox")) {
-            WebDriverManager.firefoxdriver().setup();
-            WebDriver driver = new FirefoxDriver();
-            return driver;
-
-        }else if (driverType.equalsIgnoreCase("edge")) {
-            WebDriverManager.edgedriver().setup();
-            WebDriver driver = new EdgeDriver();
-            return driver;
-
+    public static WebDriver getDriver(String browserType) {
+        WebDriver driver = null;
+        switch (browserType.toLowerCase()){
+            case "chrome":
+                WebDriverManager.chromedriver().setup();
+                driver = new ChromeDriver();
+                break;
+            case "safari":
+                WebDriverManager.safaridriver().setup();
+                driver = new SafariDriver();
+                break;
+            case "firefox":
+                WebDriverManager.firefoxdriver().setup();
+                driver = new FirefoxDriver();
+                break;
+            case "edge":
+                WebDriverManager.edgedriver().setup();
+                driver = new EdgeDriver();
+                break;
         }
-        return null;
+       driver.manage().window().maximize();
+        return driver;
     }
 }
 
