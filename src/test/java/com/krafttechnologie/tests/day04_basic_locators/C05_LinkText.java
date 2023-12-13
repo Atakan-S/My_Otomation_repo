@@ -22,7 +22,7 @@ public class C05_LinkText {
         }else {
             System.out.println("FAIL");
         }
-        driver.quit();
+
     }
 }
 /*
